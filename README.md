@@ -23,6 +23,7 @@
 <!--
 Description here.
 -->
+Taobao passport plugin for egg
 
 ## Install
 
@@ -45,14 +46,13 @@ exports.passportTaobao = {
 ```js
 // {app_root}/config/config.default.js
 exports.passportTaobao = {
+  key: 'EGG_PASSPORT_TAOBAO_CLIENT_ID',
+  secret: 'EGG_PASSPORT_TAOBAO_CLIENT_SECRET',
 };
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.
 
-## Example
-
-<!-- example here -->
 
 ## Questions & Suggestions
 
