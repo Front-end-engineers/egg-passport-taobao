@@ -41,7 +41,6 @@
   },
   "files": [
     "config",
-    "agent.js",
     "app.js"
   ],
   "ci": {
